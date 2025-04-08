@@ -10,10 +10,10 @@ export default defineConfig({
       '/api': 'https://example.com', 
     },
     host: 'example.com', 
-    https: {
-      key: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-key.pem')),  
-      cert: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-cert.pem')),
-    },
+    // https: {
+    //   key: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-key.pem')),  
+    //   cert: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-cert.pem')),
+    // },
     strictPort: true,
     allowedHosts: ['example.com', 'sub.example.com'], 
   },
