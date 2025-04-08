@@ -1,6 +1,12 @@
-# netlify.toml (Main site repository)
 [[redirects]]
-  from = "/"
+  from = "/blog/*"
   to = "https://superb-figolla-1b13e4.netlify.app/:splat"
+  status = 200
+  force = false
+
+
+[[redirects]]
+  from = "/blog"
+  to = "https://superb-figolla-1b13e4.netlify.app"
   status = 200
   force = false
