@@ -7,14 +7,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://example.com', 
+      '/api': 'https://mainfrontendnet.netlify.app/', 
     },
-    host: 'example.com', 
+    host: 'mainfrontendnet.netlify.app', 
     // https: {
     //   key: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-key.pem')),  
     //   cert: fs.readFileSync(path.resolve(__dirname, 'D:/Internship/server-github-services/frontend/example.com+2-cert.pem')),
     // },
     strictPort: true,
-    allowedHosts: ['example.com', 'sub.example.com'], 
   },
 });
