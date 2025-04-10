@@ -1,9 +1,6 @@
-[build]
-command = "npm run build"
-cwd = "./"
-watch_dir = "./"
-publish = "dist"
+name = "frontend-app"
+compatibility_date = "2025-04-10"
 
-[build.environment]
-NODE_VERSION = "18"
-NPM_FLAGS = "--legacy-peer-deps"
+[build]
+command = "npm install && npm run build"
+cwd = "frontend"
