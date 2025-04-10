@@ -4,3 +4,14 @@ compatibility_date = "2025-04-10"
 [build]
 command = "npm install && npm run build"
 cwd = "."
+
+[workers_dev]
+route = "example-frontend-6xa.pages.dev/blog*"
+zone_id = "8e0fc78eb2f1546cdc2a81e78ea0b168"
+
+[env.production]
+name = "frontend-app"
+type = "javascript"
+
+[env.production.routes]
+- "example-frontend-6xa.pages.dev/blog*"
