@@ -2,6 +2,7 @@ name = "frontend-app"
 compatibility_date = "2025-04-10"
 
 [build]
-command = "npm install && npm run build"
-cwd = "."
+  command = "npm install && npm run build"
+  watch_paths = ["src/**/*", "public/**/*"] 
+  exclude_paths = ["src/test/**/*"]        
 
