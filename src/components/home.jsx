@@ -17,7 +17,7 @@ const LandingPage = () => {
             Go to App
           </button>
           <button
-            onClick={() => handleRedirect("https://mainfrontendnet.netlify.app/home")}
+            onClick={() => handleRedirect("https://74ba3538.example-blog-100.pages.dev")}
             className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700"
           >
             Go to Blog
