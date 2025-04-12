@@ -5,5 +5,4 @@ compatibility_date = "2025-04-10"
 pages_build_output_dir = "./dist"
 
 [functions]
-# Enable functions in Cloudflare Pages
-directory = "./functions"
+directory = "./functions"  # This should point to your actual function directory if you're using functions
