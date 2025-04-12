@@ -12,11 +12,12 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "vite": "^6.2.5",
+    "@cloudflare/workers-types": "^4.20250412.0",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^9.23.0",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19"
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "vite": "^6.2.5"
   },
   "type": "module"
 }
