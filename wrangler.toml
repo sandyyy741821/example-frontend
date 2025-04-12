@@ -1,8 +1,5 @@
-name = "frontend-app"
-compatibility_date = "2025-04-10"
+name = "frontend"
+type = "webpack"  # or "javascript" depending on your bundling method
 
-# The directory containing your build output (e.g., "dist" or "build")
-pages_build_output_dir = "./dist"
-
-[functions]
-directory = "./functions"  # This should point to your actual function directory if you're using functions
+[build]
+command = "npm run build"

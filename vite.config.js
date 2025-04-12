@@ -1,14 +1,9 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import fs from 'fs';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    proxy: {
-      '/api': 'https://example-frontend-6xa.pages.dev', 
-    },
-    strictPort: true,
+  build: {
+    outDir: 'dist', // or wherever you want the build output
   },
-});
+})
