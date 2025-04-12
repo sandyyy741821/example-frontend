@@ -1,5 +1,7 @@
-name = "frontend"
-type = "webpack"  # or "javascript" depending on your bundling method
-
 [build]
 command = "npm run build"
+directory = "dist"
+
+[[env.production]]
+workers_dev = false
+route = "example-frontend-6xa.pages.dev/*"
